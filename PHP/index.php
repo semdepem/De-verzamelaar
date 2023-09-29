@@ -33,12 +33,96 @@
   </div>
 </nav>
 
+<?php
+$servername = "localhost";
+$username = "Beroeps088699";
+$password = "Beroeps088699";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
+?>
+
+
 <div class="container">
-    <h1>Lorem Ipsun</h1>
+   <div class="product">
+    <h1>Hier komt product</h1>
+   </div>
+   <div class="text">
+    <h1>Hier komt de text</h1> 
+   </div>
 </div>
 
-<footer>
-  
+<div class="container">
+   <div class="product">
+    <h1>Hier komt product</h1>
+   </div>
+   <div class="text">
+    <h1>Hier komt de text</h1> 
+   </div>
+</div>
+
+<div class="container">
+   <div class="product">
+    <h1>Hier komt product</h1>
+   </div>
+   <div class="text">
+    <h1>Hier komt de text</h1> 
+   </div>
+</div>
+
+<div class="container">
+   <div class="product">
+    <h1>Hier komt product</h1>
+   </div>
+   <div class="text">
+    <h1>Hier komt de text</h1> 
+   </div>
+</div>
+
+<div class="container">
+   <div class="product">
+    <h1>Hier komt product</h1>
+   </div>
+   <div class="text">
+    <h1>Hier komt de text</h1> 
+   </div>
+</div>
+
+<div class="container">
+   <div class="product">
+    <h1>Hier komt product</h1>
+   </div>
+   <div class="text">
+    <h1>Hier komt de text</h1> 
+   </div>
+</div>
+
+<div class="container">
+   <div class="product">
+    <h1>Hier komt product</h1>
+   </div>
+   <div class="text">
+    <h1>Hier komt de text</h1> 
+   </div>
+</div>
+
+<div class="container">
+   <div class="product">
+    <h1>Hier komt product</h1>
+   </div>
+   <div class="text">
+    <h1>Hier komt de text</h1> 
+   </div>
+</div>
+
+<footer class="footer">
+  <p>Made by sem ©</p>
 </footer>
 <!-- bootstrap scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

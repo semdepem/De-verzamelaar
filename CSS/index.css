@@ -27,6 +27,21 @@ body{
     height: 30vh;
     margin-top: 2.5em;
     background-color: red;
+    display: flex;
+    justify-content: space-between;
   }
 
+  .product{
+    background-color: green;
+  }
   
+  .text{
+    background-color: blue;
+  }
+
+  .footer{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+  }
