@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="/CSS/bestellingen.css">
+    <link rel="stylesheet" href="/Github/De-verzamelaar/CSS/bestellingen.css">
     <title>bestellingen</title>
   </head>
   <body>
@@ -17,13 +17,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="/PHP/index.php">Home</a>
+          <a class="nav-link" href="/Github/De-verzamelaar/PHP/index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/PHP/Producten.php">Producten</a>
+          <a class="nav-link" href="/Github/De-verzamelaar/PHP/Producten.php">Producten</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/PHP/reviews.php">Reviews</a>
+          <a class="nav-link" href="/Github/De-verzamelaar/PHP/reviews.php">Reviews</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Bestellen</a>
