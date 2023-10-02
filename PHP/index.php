@@ -33,18 +33,18 @@
 </nav>
 
 <?php
-//$servername = "localhost";
-//$username = "Beroeps088699";
-//$password = "Beroeps088699";
+$servername = "localhost";
+$username = "Beroeps088699";
+$password = "Beroeps088699";
 
 
-//$conn = new mysqli($servername, $username, $password);
+$conn = new mysqli($servername, $username, $password);
 
 
-//if ($conn->connect_error) {
-  //die("Connection failed: " . $conn->connect_error);
-//}
-//echo "Connected successfully";
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
 ?>
 
 <div class="scrollable-container">
