@@ -1,5 +1,5 @@
 body{
-    height: 110vh;
+    height: 100vh;
     background-color: wheat;
 }
 
@@ -23,6 +23,11 @@ body{
     background: #555;
   }
 
+  .scrollable-container {
+    max-height: 75vh; /* Adjust the maximum height as needed */
+    overflow-y: scroll;
+}
+
   .container{
     height: 30vh;
     margin-top: 2.5em;
@@ -39,9 +44,13 @@ body{
     background-color: blue;
   }
 
-  .footer{
-    margin-top: 2em;
-    display: flex;
-    justify-content: center;
-    background-color: #555;
+ 
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #212529;
+    text-align: center;
+    padding: 10px 0;
   }
+  

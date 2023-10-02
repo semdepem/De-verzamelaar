@@ -1,5 +1,5 @@
 body{
-    height: 110vh;
+    height: 100vh;
     background-color: wheat;
 }
 
@@ -29,4 +29,13 @@ body{
     background-color: rgb(13, 255, 0);
   }
 
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #212529;
+    text-align: center;
+    padding: 10px 0;
+  }
   
