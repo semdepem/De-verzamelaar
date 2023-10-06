@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="/Github/De-verzamelaar/CSS/producten.css">
+    <link rel="stylesheet" href="../CSS/producten.css">
     <title>Producten</title>
   </head>
   <body>
@@ -16,16 +16,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/Github/De-verzamelaar/PHP/index.php">Home</a>
+          <a class="nav-link" aria-current="page" href="../PHP/index.php">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active"  aria-current="page"  href="#">Producten</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Github/De-verzamelaar/PHP/reviews.php">Reviews</a>
+          <a class="nav-link" href="../PHP/reviews.php">Reviews</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Github/De-verzamelaar/PHP/bestellingen.php">Bestellen</a>
+          <a class="nav-link" href="../PHP/bestellingen.php">Bestellen</a>
         </li>
       </ul>
     </div>
@@ -35,7 +35,7 @@
 
 <div class="container">
   <div class="img">
-    <img src="/Github/De-verzamelaar/Img/placeholder-1024x1024.png">
+    <img src="../Img/placeholder-1024x1024.png">
   </div>
   <div class="text">
   <h1>hallo</h1>
