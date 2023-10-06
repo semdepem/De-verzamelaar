@@ -27,6 +27,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/Github/De-verzamelaar/PHP/bestellingen.php">Bestellen</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Github/De-verzamelaar/PHP/login.php">Login</a>
+        </li>
       </ul>
     </div>
   </div>
